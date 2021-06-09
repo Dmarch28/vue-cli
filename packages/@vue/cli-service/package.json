@@ -30,7 +30,7 @@
     "@vue/cli-plugin-router": "^4.2.3",
     "@vue/cli-plugin-vuex": "^4.2.3",
     "@vue/cli-shared-utils": "^4.2.3",
-    "@vue/component-compiler-utils": "^3.0.2",
+    "@vue/component-compiler-utils": "^3.2.1",
     "@vue/preload-webpack-plugin": "^1.1.0",
     "@vue/web-component-wrapper": "^1.2.0",
     "acorn": "^7.1.0",
