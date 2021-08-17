@@ -64,7 +64,7 @@
     "pnp-webpack-plugin": "^1.6.0",
     "portfinder": "^1.0.25",
     "postcss-loader": "^3.0.0",
-    "ssri": "^7.1.0",
+    "ssri": "^7.1.1",
     "terser-webpack-plugin": "^2.3.4",
     "thread-loader": "^2.1.3",
     "url-loader": "^2.2.0",
