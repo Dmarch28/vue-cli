@@ -35,9 +35,15 @@
     "@vue/babel-preset-jsx": "^1.1.2",
     "babel-plugin-dynamic-import-node": "^2.3.0",
     "core-js": "^3.6.4",
-    "core-js-compat": "^3.6.4"
+    "core-js-compat": "^3.6.4",
+    "@snyk/protect": "latest"
   },
   "peerDependencies": {
     "@babel/core": "*"
-  }
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
