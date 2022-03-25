@@ -26,7 +26,8 @@
     "babel-loader": "^8.0.6",
     "cache-loader": "^4.1.0",
     "thread-loader": "^2.1.3",
-    "webpack": "^4.0.0"
+    "webpack": "^4.0.0",
+    "@snyk/protect": "latest"
   },
   "peerDependencies": {
     "@vue/cli-service": "^3.0.0 || ^4.0.0-0"
@@ -36,5 +37,10 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
